@@ -42,7 +42,7 @@ public function save()
 			":desurl"=>$this->getdesurl()
 		));
 		
-		//$this->setData($results[0]);
+		$this->setData($results[0]);
 	}
   public function get($idproduct)
   {

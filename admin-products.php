@@ -12,13 +12,13 @@ $app->get("/admin/products", function(){
     "products"=>$products
   ]);
 
-    $products = Product::listAll();
-	$page = new PageAdmin();
-	$page->setTpl("products", [
+   // $products = Product::listAll();
+	//$page = new PageAdmin();
+	//$page->setTpl("products", [
 		//"products"=>$pagination['data'],
 		//"search"=>$search,
 		//"pages"=>$pages
-	]);
+	//]);
 
 });
 
